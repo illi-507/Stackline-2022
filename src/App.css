@@ -1,0 +1,82 @@
+#d3demo{
+	width: 80vw;
+	height: 50vh;
+}
+
+.App{
+
+}
+
+.headline{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	background-color: aquamarine;
+}
+
+.content{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;	
+	border: 1px solid blue;
+}
+
+.product{
+     width: 30vw;
+	 height: auto;	 
+	 display: flex;
+	 flex-direction: column;
+	 padding: 10px;
+	 
+	 box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	 -moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	 -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	 -o-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	 margin:10px;
+	 align-items: center;
+	 height: 80vh;
+}
+
+.product-logo{
+	width: 200px;
+	height: auto;
+
+}
+
+.tags{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;	
+}
+.tag{
+   height: 20px;
+   width: fit-content;
+   border: 1px solid gray;
+    margin: 0 10px 5px 0;
+   padding: 5px 20px 5px 20px;
+   color: gray;
+}
+
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+  }
+  
+  table td, table th {
+	border: 1px solid #ddd;
+	padding: 8px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #04AA6D;
+	color: white;
+  }
